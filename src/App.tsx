@@ -9,6 +9,7 @@ import { ReviewsSection } from './components/ReviewsSection';
 import { Footer } from './components/Footer';
 import { MenuModal } from './components/MenuModal';
 import { OrderModal } from './components/OrderModal';
+import { LoadingScreen } from './components/LoadingScreen';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +17,7 @@ export default function App() {
 
   return (
     <main className="relative bg-black font-sans pb-20 md:pb-24 overflow-clip">
+      <LoadingScreen />
       <div className="relative z-50">
         <Marquee />
       </div>
