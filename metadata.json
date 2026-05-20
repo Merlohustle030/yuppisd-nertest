@@ -1,0 +1,6 @@
+{
+  "name": "Yuppis Döner",
+  "description": "Premium Döner Shop mit Fokus auf Qualität und Kiez-Kultur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
